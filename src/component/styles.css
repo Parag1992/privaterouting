@@ -1,0 +1,38 @@
+* {
+box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+.nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+
+
+.nav a{
+    background-color: rgb(53, 243, 243);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav{
+    background-color: aqua;
+    color: brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 1rem 1rem;
+}
+
+.active{
+    color: black;
+}

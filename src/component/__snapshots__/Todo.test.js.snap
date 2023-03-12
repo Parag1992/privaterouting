@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Todo App shallow testing  Snapshot testing  1`] = `
+<Fragment>
+  <h1
+    className="h1Cls"
+  >
+    My Name is : 
+  </h1>
+  <br />
+  <input
+    key="txtNm"
+    onChange={[Function]}
+    type="text"
+  />
+  <button
+    className="myBtnCls"
+    onClick={[Function]}
+    value="Submit"
+  >
+    Submit
+  </button>
+  <br />
+  <hr />
+  <Table
+    myName="I am  props"
+  />
+</Fragment>
+`;
